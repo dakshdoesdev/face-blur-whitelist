@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Keep biometric data, personal media, and downloaded models out of the repo.
+profiles/
+models/
+debug/
+samples/
+*.npz
+*.onnx
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav

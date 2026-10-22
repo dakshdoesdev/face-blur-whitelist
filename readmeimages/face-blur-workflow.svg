@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Face Blur Whitelist workflow</title>
+  <desc id="desc">An illustrative video frame has one clear reference face and two mosaic faces, followed by a local output video.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1">
+      <stop stop-color="#101525"/>
+      <stop offset="1" stop-color="#202c46"/>
+    </linearGradient>
+    <pattern id="grid" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="#566c94"/>
+      <path d="M0 0H12M0 0V12" stroke="#a9b6d0" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="420" rx="24" fill="url(#bg)"/>
+  <text x="50" y="70" fill="#f6f8ff" font-family="Arial,sans-serif" font-size="37" font-weight="bold">Face Blur Whitelist</text>
+  <text x="50" y="105" fill="#bcc9e0" font-family="Arial,sans-serif" font-size="18">One reference stays clear. Other detected faces get censored.</text>
+  <rect x="48" y="144" width="818" height="221" rx="18" fill="#293953" stroke="#4d6687" stroke-width="2"/>
+  <rect x="68" y="162" width="778" height="185" rx="11" fill="#344b66"/>
+  <path d="M68 310C228 255 366 300 505 255S716 275 846 230V347H68Z" fill="#40597a"/>
+  <circle cx="224" cy="220" r="40" fill="url(#grid)"/>
+  <path d="M155 333c0-59 33-89 69-89s69 30 69 89" fill="#677c9c"/>
+  <circle cx="475" cy="215" r="43" fill="#f7c9a4"/>
+  <path d="M400 333c0-66 35-96 75-96s75 30 75 96" fill="#86aed3"/>
+  <circle cx="725" cy="220" r="40" fill="url(#grid)"/>
+  <path d="M656 333c0-59 33-89 69-89s69 30 69 89" fill="#677c9c"/>
+  <rect x="417" y="164" width="116" height="123" rx="9" fill="none" stroke="#65e6b6" stroke-width="4"/>
+  <rect x="160" y="172" width="128" height="120" rx="9" fill="none" stroke="#f5a167" stroke-width="4"/>
+  <rect x="661" y="172" width="128" height="120" rx="9" fill="none" stroke="#f5a167" stroke-width="4"/>
+  <text x="419" y="153" fill="#80f1c5" font-family="Arial,sans-serif" font-size="17" font-weight="bold">KEEP</text>
+  <text x="160" y="162" fill="#ffc093" font-family="Arial,sans-serif" font-size="17" font-weight="bold">MOSAIC</text>
+  <text x="661" y="162" fill="#ffc093" font-family="Arial,sans-serif" font-size="17" font-weight="bold">MOSAIC</text>
+  <path d="M896 252h78m-25-24 25 24-25 24" fill="none" stroke="#c1d2ed" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1000" y="183" width="145" height="137" rx="15" fill="#354c69" stroke="#79a7db" stroke-width="3"/>
+  <path d="M1048 217v69l57-35z" fill="#8de9be"/>
+  <text x="1002" y="346" fill="#dbe6f7" font-family="Arial,sans-serif" font-size="18">Local output</text>
+</svg>
